@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <android.opengl.GLSurfaceView
+      android:id="@+id/surfaceView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <EditText
+          android:id="@+id/etIpAddress"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="Enter IP Address"
+          android:inputType="text" />
+
+      <Button
+          android:id="@+id/btnSetIpAddress"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Set IP" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="CLEAR" />
+
+    <Button
+        android:text="SUMMON"
+        android:id="@+id/summon_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/depth_recognition_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEPTH RECOGNITION"
+        android:layout_below="@id/summon_button"/>
+
+    <Button
+        android:id="@+id/change_pet_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try Different Pet"
+        android:layout_below="@id/depth_recognition_button"/>
+
+  </LinearLayout>
+
+</FrameLayout>
