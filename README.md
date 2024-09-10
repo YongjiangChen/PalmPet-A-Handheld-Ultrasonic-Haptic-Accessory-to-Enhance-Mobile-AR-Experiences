@@ -6,8 +6,12 @@
 The PalmPet system is an innovative handheld ultrasonic haptic accessory designed to enhance mobile AR experiences. It offers two distinct interaction scenarios: Cloud Anchor Mode for placing and feeling virtual pets on the palm, and Depth Recognition Mode for perceiving real-world objects through the smartphone screen. Both modes utilize an 8x8 phased array of ultrasonic transducers mounted on the back of the smartphone to generate focused ultrasound waves, creating mid-air tactile sensations corresponding to virtual pets or detected objects. The Cloud Anchor Mode also enables users to summon previously placed pets from the cloud, allowing for persistent and shared AR experiences across multiple sessions or devices. This unique blend of visual and tactile feedback, coupled with cloud-based persistence, significantly enhances the immersion and interactivity of mobile AR applications.
 
 ## GIF Demo
+- PalmPet App
+![351a357416636f1b1ce11b3509de6766-ezgif com-optimize](https://github.com/user-attachments/assets/ff79bdf3-6ee2-46ed-8131-b67241f66f50)
 
-![Screen-Recording-2024-09-10T10_20_33 680Z-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/b284c6a3-ca68-41ef-ab91-5323f3bf47c2)
+- Windows .exe
+![Screen-Recording-2024-09-10T10_20_33 680Z-ezgif com-speed](https://github.com/user-attachments/assets/17e30add-f93c-404d-bde0-68d1f7570888)
+
 
 
 ## Acknowledgements
