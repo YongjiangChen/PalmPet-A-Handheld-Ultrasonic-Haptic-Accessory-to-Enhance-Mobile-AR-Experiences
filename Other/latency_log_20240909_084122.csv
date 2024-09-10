@@ -1,0 +1,15 @@
+Timestamp,Event,Duration(ms)
+1725867687357,sendDepthBoxVertices,50
+1725867693289,sendInvalidPosition,0
+1725867693298,PositionUpdate,10
+1725867699718,sendDepthBoxVertices,12
+1725867706725,sendInvalidPosition,0
+1725867706737,PositionUpdate,12
+1725867710466,sendDepthBoxVertices,16
+1725867713352,sendInvalidPosition,1
+1725867713367,PositionUpdate,15
+1725867715613,sendDepthBoxVertices,8
+1725867715649,sendInvalidPosition,0
+1725867715655,PositionUpdate,6
+1725867715811,sendInvalidPosition,1
+1725867715820,PositionUpdate,9
