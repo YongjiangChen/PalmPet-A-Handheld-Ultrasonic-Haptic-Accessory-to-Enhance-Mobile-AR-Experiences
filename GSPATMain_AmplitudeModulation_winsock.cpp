@@ -279,7 +279,7 @@ void listenForUpdates() {
                 }
             }
             else {
-                threadSafeCout("Received invalid position data");
+                threadSafeCout("Received invalid position data or pet outside the camera view");
             }
         }
         else if (iResult == 0) {
